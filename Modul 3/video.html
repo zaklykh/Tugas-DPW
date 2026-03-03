@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Video</title>
+    <meta name="author" content="Habibi Zakly Khairullah">
+    <meta name="nim" content="253307048">
+    <meta name="description" content="Website praktikum HTML5 Lanjut">
+    <meta name="keywords" content="HTML5, Form, Audio, Video, SVG, Canvas">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    nav {
+        float: left;
+        width: 30%;
+        height: 660px;
+        background: #ccc;
+        padding: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 660px;
+    }
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+<body>
+    <center>
+        <header>
+            <h2>Portfolio</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="gambar.html">Gambar</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="svg.html">SVG</a></li>
+                    <li><a href="canvas.html">Canvas</a></li>
+                </ul>
+                <!-- Kesimpulan -->
+                <p>253307048 / Habibi Zakly Khairullah</p>
+                <p>Video digunakan untuk menampilkan konten video dalam halaman web.</p>
+                <p>Figure digunakan untuk menampilkan gambar atau video dengan keterangan.</p>
+                <p>Figcaption digunakan untuk memberikan keterangan pada elemen figure.</p>
+                <p>IFrame digunakan untuk menampilkan konten dari halaman web lain dalam sebuah halaman web.</p>
+            </nav>
+                <article>
+                    <h1>Halaman Video</h1>
+                    <figure>
+                        <figcaption><strong>Video Lokal</strong></figcaption>
+                        <video width="auto" height="200" controls autoplay muted>
+                            <source src="video/video1.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung tag video.
+                        </video>
+                    </figure>
+
+                    <figure>
+                        <figcaption><strong>Video Youtube Embed</strong></figcaption>
+                        <iframe width="auto" height="200" frameborder="0" title="Youtube Video Player"
+                        src="https://www.youtube.com/embed/CgCVZdcKcqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </figure>
+                </article>
+        </section>
+
+        <footer>
+            <p><i>Copyright&copy;2026 - Praktikum HTML5 | Habibi Zakly Khairullah</i></p>
+        </footer>
+    </center>
+</body>
+
+</html>
