@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector</title>
+     <style>
+        /* No 1: Descendant Selector (Semua p di dalam div) */
+        div p { 
+            color: red;
+        }
+
+        /* No 2: Child Selector (p yang merupakan anak langsung dari div) */
+        div > p { 
+            background-color: yellow;
+        }
+
+        /* No 3: Adjacent Sibling Selector (p yang tepat setelah div) */
+        div + p { 
+            background-color: darkgray;
+        }
+
+        /* No 4: General Sibling Selector (Semua p yang merupakan saudara div) */
+        div ~ p { 
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+     <div>
+        <p>1. Paragraf ini berwarna merah karena berada di dalam DIV (Descendant) dan berlatar kuning (Child).</p>
+        <p>2. Paragraf ini juga anak dari DIV.</p>
+    </div>
+
+    <p>3. Paragraf ini tepat setelah DIV, maka mendapat latar abu-abu (Adjacent).</p>
+    <p>4. Paragraf ini adalah saudara dari DIV, maka teksnya berwarna cyan (General Sibling).</p>
+</body>
+</html>

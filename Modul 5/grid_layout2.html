@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Grid 2</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-gap: 50px; /* default gap */
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-columns: auto auto auto auto; /* skenario 2 */
+        }
+
+        /* Item default */
+        .item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        /* Skenario 1 – item1 spanning 3 row */
+        .item1 {
+            grid-row: 1 / 4;
+        }
+
+        /* Skenario 2 – column spanning */
+        .item2 {
+            grid-column: 1 / 4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tampilan Grid Layout 2</h1>
+
+    <div class="grid-container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">Tulis kesimpulan ujicoba disini!</div>
+        <p>Kesimpulan: Grid layout memungkinkan pengaturan elemen secara dua dimensi, baik secara horizontal maupun vertikal.</p>
+    </div>
+
+    <p>Kesimpulan Skenario 1: item1 mengambil 3 baris vertikal sehingga layout menjadi lebih bervariasi.</p>
+    <p>Kesimpulan Skenario 2: item2 mengambil 3 kolom horizontal sehingga beberapa item menyesuaikan posisi secara otomatis.</p>
+
+</body>
+</html>

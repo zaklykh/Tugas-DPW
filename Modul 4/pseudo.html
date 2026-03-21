@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Pseudo-Class</title>
+</head>
+<style>
+        /* Sembunyikan paragraf secara default [cite: 74, 75] */
+        p {
+            display: none;
+            background-color: darkgray;
+            padding: 20px;
+        }
+
+        /* Tampilkan paragraf saat div di-hover [cite: 80, 81] */
+        div:hover p {
+            display: block;
+        }
+
+        /* Tugas tambahan: Link berubah warna [cite: 88, 89] */
+        a:link { color: blue; }
+        a:hover { color: red; font-weight: bold; }
+    </style>
+<body>
+    <div> 
+        Letakkan kursor disini untuk melihat div element
+        <p>Saya adalah element p</p>
+    </div>
+
+    <br>
+    <a href="#">Contoh Link (Arahkan mouse ke sini)</a>
+</body>
+</html>
