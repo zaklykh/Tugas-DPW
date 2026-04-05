@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Program Basic Dialog jQuery</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+    <h2>Contoh Jendela Dialog</h2>
+    <p>Halaman ini akan otomatis menampilkan kotak dialog saat dimuat.</p>
+
+    <div id="dialogBasic" title="Informasi Penting">
+        <p>Ini adalah jendela <strong>Basic Dialog</strong> yang dibuat menggunakan jQuery UI. Anda dapat menggeser atau
+            menutup jendela ini.</p>
+    </div>
+
+    <button id="btnBuka">Buka Dialog Lagi</button>
+
+    <script>
+        $(function () {
+            // Inisialisasi dialog
+            $("#dialogBasic").dialog({
+                autoOpen: true, // Dialog langsung terbuka saat halaman dimuat
+                show: { effect: "blind", duration: 500 },
+                hide: { effect: "explode", duration: 500 }
+            });
+
+            // Fungsi untuk membuka kembali dialog jika tombol diklik
+            $("#btnBuka").on("click", function () {
+                $("#dialogBasic").dialog("open");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
