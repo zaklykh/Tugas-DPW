@@ -5,6 +5,7 @@ Selamat datang di repositori **Desain dan Pemrograman Web**. Repositori ini beri
 ## 👤 Identitas Mahasiswa
 * **Nama:** Habibi Zakly Khairullah
 * **Program Studi:** Teknologi Informasi
+* **NIM: 253307048**
 * **Kampus:** Politeknik Negeri Madiun
 
 ## 📚 Deskripsi Mata Kuliah Desain & Pemrograman Web
@@ -34,6 +35,7 @@ Berikut adalah daftar modul yang telah diselesaikan. Silakan klik pada nama modu
 ## 🛠️ Teknologi yang Digunakan
 * **HTML5** (HyperText Markup Language)
 * **CSS3** (Cascading Style Sheets)
+* **JS** (Java Script)
 * **VS Code** (Text Editor)
 
 ## 📝 Catatan
