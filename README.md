@@ -36,6 +36,7 @@ Berikut adalah daftar modul yang telah diselesaikan. Silakan klik pada nama modu
 * **HTML5** (HyperText Markup Language)
 * **CSS3** (Cascading Style Sheets)
 * **JS** (Java Script)
+* **PHP** (PHP: Hypertext Preprocessor)
 * **VS Code** (Text Editor)
 
 ## 📝 Catatan
