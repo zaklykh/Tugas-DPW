@@ -1,9 +1,9 @@
 <?php
 require_once ('Mahasiswa.php');
 
-$mhs1 = new mahasiswa("Nama Anda");
-$mhs1->setNIM("NIM anda");
-$mhs1->setKelas("Kelas anda");
+$mhs1 = new mahasiswa("Habibi Zakly Khairullah");
+$mhs1->setNIM("253307048");
+$mhs1->setKelas("2B");
 
 // tampilkan nama nim dan kelas dari $mhs1
 echo "Nama: " . $mhs1->getNama() . "<br>";

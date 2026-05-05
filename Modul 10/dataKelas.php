@@ -1,10 +1,10 @@
 <?php
 require_once ('kelas/Mahasiswa.php');
 
-$mhs = new Mahasiswa("Nama Anda");
-$mhs->setNIM("123456789");
-$mhs->setJurusan("Teknik Informatika");
-$mhs->setKelas("2A");
+$mhs = new Mahasiswa("Habibi Zakly Khairullah");
+$mhs->setNIM("253307048");
+$mhs->setJurusan("Teknologi Informasi");
+$mhs->setKelas("2B");
 
 echo "<h3>Data Mahasiswa</h3>";
 echo "Nama: " . $mhs->getNama() . "<br>";
