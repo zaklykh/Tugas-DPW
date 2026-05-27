@@ -2,7 +2,7 @@
   //variabel koneksi dengan database mysql
   $host = "localhost";
   $user = "root";
-  $paswd = "root";
+  $paswd = "";
   $name = "akademik";
 
   //proses koneksi
