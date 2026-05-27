@@ -29,6 +29,8 @@ Berikut adalah daftar modul yang telah diselesaikan. Silakan klik pada nama modu
 | 8 | **Modul 8** | Modul Praktikum 8 - PHP Dasar| [Lihat Modul](https://github.com/anggerbinuko/dpw) |
 | 9 | **Modul 9** | Modul Praktikum 9 - PHP Lanjut| [Lihat Modul](https://github.com/anggerbinuko/dpw) |
 | 10 | **Modul 10** | Modul Praktikum 10 - PHP OOP| [Lihat Modul](https://github.com/anggerbinuko/dpw) |
+| 11 | **Modul 11** | Modul Praktikum 11 - PHP Database (CRUD)| [Lihat Modul](https://github.com/anggerbinuko/dpw) |
+| 12 | **Modul 12** | Modul Praktikum 10 - PHP Database (OOP)| [Lihat Modul](https://github.com/anggerbinuko/dpw) |
 
 ---
 
